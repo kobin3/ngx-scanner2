@@ -51,7 +51,7 @@ class BrowserCodeReader {
             /** @type {?} */
             const video = typeof deviceId === 'undefined'
                 ? { facingMode: { exact: 'environment' } }
-                : { deviceId: { exact: deviceId }, width: 4000, height: 4000 };
+                : { deviceId: { exact: deviceId }, width: {ideal:2000}, height: {ideal:2000} };
             /** @type {?} */
             const constraints = {
                 audio: false,
