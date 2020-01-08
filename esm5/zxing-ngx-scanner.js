@@ -26,7 +26,7 @@ var BrowserCodeReader = /** @class */ (function () {
                         }
                         video = typeof deviceId === 'undefined'
                             ? { facingMode: { exact: 'environment' } }
-                            : { deviceId: { exact: deviceId }, width: {ideal:2000}, height: {ideal:2000} };
+                            : { deviceId: { exact: deviceId }, width: {ideal:720}, height: {ideal:720} };
                         constraints = {
                             audio: false,
                             video: video
